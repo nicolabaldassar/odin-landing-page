@@ -97,3 +97,44 @@ button {
     align-items: center;
     color: #e5e7eb;
 }
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.element div {
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6;
+    border-radius: 10px;
+}
+
+.element p {
+    text-align: center;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 155px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
