@@ -82,7 +82,7 @@ button {
     background-color: #3882f6;
     border: none;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 10px 25px;
     font-size: 16px;
     font-weight: bold;
     color: #f9faf8;
@@ -90,7 +90,7 @@ button {
 }
 
 .placeholder {
-    background-color: darkgray;
+    background-color: #6d747d;
     display: flex;
     flex: 1;
     justify-content: center;
@@ -137,4 +137,77 @@ button {
 
 .quote-section {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 830px;
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#cit {
+    text-align: end;
+    font-size: 22px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.cit-div {
+    text-align: end;
+    width: 775px;
+}
+
+.call-to-action-section {
+    display: flex;
+    align-items: center;
+    margin-left: 205px;
+    margin-right: 205px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+    flex: 1;
+    padding: 30px 120px;
+    color: white;
+}
+
+#cta-button {
+    border: solid white;
+}
+
+.cta-left h3 {
+    font-weight: 900;
+}
+
+.cta-right {
+    display:flex;
+    align-items: center;
+}
+
+.footer {
+    flex: 1;
+    display: flex;
+    background-color: #1f2937;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text p {
+    color: #e5e7eb;
+    font-size: 18px;
 }
