@@ -171,18 +171,18 @@ button {
 .call-to-action-section {
     display: flex;
     align-items: center;
-    margin-left: 205px;
-    margin-right: 205px;
+    justify-content: center;
 }
 
 .cta-container {
     display: flex;
-    justify-content: space-between;
     background-color: #3882f6;
+    justify-content: center;
     border-radius: 10px;
-    flex: 1;
-    padding: 30px 120px;
+    padding: 30px 50px;
     color: white;
+    width: 800px;
+    gap: 30px;
 }
 
 #cta-button {
